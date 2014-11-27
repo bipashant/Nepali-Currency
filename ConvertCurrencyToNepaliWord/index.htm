@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="layout.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript">
+
+    </script>
+</head>
+    <body>
+        <div class="maincontainer" id="mainContainerID" >
+            
+            <input id="txtInput" type="text" onkeyup="converttoword(document.getElementById('txtInput').value)"/>
+
+            <input id="btnconvert" type="button" 
+                   value="Convert" onclick="converttoword(document.getElementById('txtInput').value)" />
+        
+            <textarea id="txtoutput" cols="20" rows="2"></textarea>
+        </div>
+
+        <script src="ConvertToNepaliCurrency.js" type="text/javascript"></script>
+    </body>
+</html>

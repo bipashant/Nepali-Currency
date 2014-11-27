@@ -1,0 +1,35 @@
+﻿body 
+{
+    background-color: darkslategray;
+}
+
+.maincontainer {
+    background-color: darkcyan;
+ 
+    height: 600px;
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+   
+}
+#txtInput {
+    margin: 20px 0 0  20px;
+    background-color: darkcyan;
+    height: 20px;
+    width: 274px;
+}
+
+#btnconvert {
+
+    left: 100px;
+    top: 60px;
+    position: absolute;
+    
+}
+#txtoutput {
+     left: 20px;
+    top: 100px;
+    position: absolute;
+    height: 142px;
+    width: 275px;
+}
